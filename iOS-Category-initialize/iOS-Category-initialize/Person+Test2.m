@@ -1,15 +1,16 @@
 //
 //  Person+Test2.m
-//  iOS-Category-detail
+//  iOS-Category-initialize
 //
-//  Created by chenshuang on 2018/8/26.
+//  Created by chenshuang on 2018/8/27.
 //  Copyright © 2018年 wenwen. All rights reserved.
 //
 
 #import "Person+Test2.h"
 
 @implementation Person (Test2)
-+ (void)load {
-    NSLog(@"Person (Test2) - load");
++ (void)initialize {
+    NSLog(@"Person (Test2) +initialize");
 }
+
 @end
