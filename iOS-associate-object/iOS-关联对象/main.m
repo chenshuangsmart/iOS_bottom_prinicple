@@ -18,7 +18,7 @@ int main(int argc, const char * argv[]) {
 //        person.age = 100;
 //        NSLog(@"age = %d",person.age);
         
-        // 弱引用 - 坏内存访问
+        // 弱引用 - 坏内存访问 - 修改资料
 //        {
 //            Person *temp = [[Person alloc] init];
 //            objc_setAssociatedObject(person, @"temp", temp, OBJC_ASSOCIATION_ASSIGN);
