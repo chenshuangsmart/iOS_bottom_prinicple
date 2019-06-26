@@ -48,6 +48,10 @@ struct method_t {
 
 struct method_list_t : entsize_list_tt {
     method_t first;
+    method_t second;
+    method_t third;
+    method_t fourth;
+    method_t last;
 };
 
 struct ivar_t {
